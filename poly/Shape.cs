@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace poly
 {
-    abstract class Shape
+    abstract class Shape//base class or parent
     {
         
         public Shape (double sideSize)

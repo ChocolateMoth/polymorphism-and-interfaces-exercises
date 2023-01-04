@@ -16,7 +16,7 @@ namespace poly
         }
         public override double Volume
         {
-            get { return(4*Math.PI*Math.Pow(base.Side, 3)); }
+            get { return(4*Math.PI*Math.Pow(base.Side, 3))/3; }
         }
         public override string ToString()
         {

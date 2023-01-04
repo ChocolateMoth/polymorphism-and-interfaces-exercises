@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace poly
 {
-    class ThreeDimensionalShape:Shape
+    abstract class ThreeDimensionalShape:Shape
     {
         public ThreeDimensionalShape(double a) : base(a)
         {

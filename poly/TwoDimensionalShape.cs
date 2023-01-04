@@ -6,7 +6,20 @@ using System.Threading.Tasks;
 
 namespace poly
 {
-    internal class TwoDimensionalShape:Shape
+    internal abstract class TwoDimensionalShape:Shape
     {
+        public TwoDimensionalShape(double a) : base(a)
+        {
+
+        }
+        public override abstract double Area 
+        { 
+            get; 
+        }
+
+        public override string ToString()
+        {
+            return string.Format("two dimensional shape");
+        }
     }
 }
