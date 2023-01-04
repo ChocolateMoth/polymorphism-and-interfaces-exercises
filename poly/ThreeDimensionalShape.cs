@@ -22,7 +22,7 @@ namespace poly
         }
         public override string ToString()
         {
-            return String.Format("is a three dimensional shape");
+            return string.Format(" is a three dimensional shape");
         }
     }
 }

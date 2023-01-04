@@ -14,11 +14,11 @@ namespace poly
         }
         public override double Area
         {
-            get { return Math.Pow{ base.Side, 2}; }
+            get { return Math.Pow( base.Side, 2); }
         }
         public override string ToString()
         {
-            return string.Format("square")+base.ToString();
+            return string.Format("square,")+base.ToString();
         }
     }
 }

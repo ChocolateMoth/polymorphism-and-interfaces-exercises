@@ -19,7 +19,7 @@ namespace poly
 
         public override string ToString()
         {
-            return string.Format("two dimensional shape");
+            return string.Format(" two dimensional shape");
         }
     }
 }

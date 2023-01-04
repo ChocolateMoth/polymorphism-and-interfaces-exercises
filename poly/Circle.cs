@@ -15,7 +15,7 @@ namespace poly
         }
         public override string ToString()
         {
-            return string.Format("Circle")+base.ToString();
+            return string.Format("Circle,")+base.ToString();
         }
     }
 }
